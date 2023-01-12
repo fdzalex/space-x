@@ -1,0 +1,6 @@
+.item-list {
+    /* opacity: 1; */
+    display: flex;
+    flex-direction: column;
+    padding-top: 2rem;
+}

@@ -1,0 +1,80 @@
+.item {
+    margin-bottom: 0.5rem;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0,0,0, 0.25);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* align-items: center; */
+    /* align-content: center; */
+    padding: 8px 0 8px 0;
+}
+
+.fligth-id {
+    color: rgba(84,84,84,1);
+    font-family: "BrandonGrotesque-Medium";
+    font-size: 40px;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: 0px;
+    flex-basis: 108px;
+    flex-grow: 0;
+    flex-shrink: 0;
+    text-align: center;
+}
+
+.mission-name {
+    opacity: 1;
+    color: rgba(84,84,84,1);
+    font-family: "BrandonGrotesque-Medium";
+    font-size: 32px;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: 0px;
+    flex-basis: 300px;
+    flex-grow: 0;
+    flex-shrink: 0;
+    text-align: left;
+}
+
+.launch-date {
+    opacity: 1;
+    color: rgba(84,84,84,1);
+    font-family: "BrandonGrotesque-Regular";
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0px;
+    text-align: right;
+}
+
+.rocket-name {
+    opacity: 1;
+    color: rgba(84,84,84,1);
+    font-family: "BrandonGrotesque-Bold";
+    font-size: 24px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: 0px;
+    text-align: right;
+}
+
+.left-side {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.right-side {
+    display: flex;
+    flex-basis: 155px;
+    flex-grow: 0;
+    flex-shrink: 0;
+    justify-content: flex-end;
+    margin-right: 16px;
+}
+
+.right-side > span {
+    flex-direction: column;
+    display: flex;
+}
